@@ -73,6 +73,8 @@ This application combines the power of blockchain and privacy-focused identity v
 - **React Router**: For handling routing and navigation in the app.
 
 ## Screenshots
+Find them here in google drive: https://drive.google.com/drive/folders/1Wn8DIVqYqK-piDadIxpVJF4ig1rM4M8r?usp=sharing
+or...
 ### Wallet Connection Screen
 
 ![Wallet Connection](images/home-page.jpg)

@@ -45,8 +45,8 @@ This application combines the power of blockchain and privacy-focused identity v
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/connect-wallet-verify.git
-   cd connect-wallet-verify
+   git clone https://github.com/Codrjay/zkpass-bounty
+   
    ```
 
 2. Install the dependencies:
@@ -61,8 +61,62 @@ This application combines the power of blockchain and privacy-focused identity v
    npm start
    ```
 
-4. Visit [http://localhost:3000](http://localhost:3000) to view the application.
+## Prerequisites
+- MetaMask or another Ethereum wallet extension installed in your browser to connect the wallet.
+- zkPass API: This application interacts with zkPass for identity verification. Ensure you have the appropriate credentials for using their service.
+
+## Technologies Used
+- **React**: A JavaScript library for building user interfaces.
+- **Ethereum (MetaMask)**: A popular Ethereum wallet that enables users to manage their accounts and interact with decentralized applications.
+- **zkPass**: A zero-knowledge proof-based identity verification platform.
+- **Axios**: A promise-based HTTP client for making requests to APIs.
+- **React Router**: For handling routing and navigation in the app.
+
+## Screenshots
+### Wallet Connection Screen
+
+![Wallet Connection](https://github.com/Codrjay/zkpass-bounty/blob/c4ba3490ddda6e94d8d15b146a91bc7cdfe3aaf1/images/homepage.png)
+
+### Permissions screen
+![Permission](https://github.com/Codrjay/zkpass-bounty/blob/c4ba3490ddda6e94d8d15b146a91bc7cdfe3aaf1/images/Permission.png)
+
+### Successful connection
+![connection Status](https://github.com/Codrjay/zkpass-bounty/blob/c4ba3490ddda6e94d8d15b146a91bc7cdfe3aaf1/images/Successfulconnection.png)
+
+### Verifying identity
+![verifying](https://github.com/Codrjay/zkpass-bounty/blob/c4ba3490ddda6e94d8d15b146a91bc7cdfe3aaf1/images/Verifyingdentity.png)
+
+### Successful verification
+![successful verification](https://github.com/Codrjay/zkpass-bounty/blob/c4ba3490ddda6e94d8d15b146a91bc7cdfe3aaf1/images/Identityverifiedsuccessfully.png)
+
+## Usage
+### 1. Connecting Wallet
+- When you first visit the app, you'll be prompted to click the "Connect Wallet" button. This will trigger MetaMask to ask for your permission to connect your wallet.
+- After you approve the connection, your wallet address will be displayed, and you'll be able to proceed with identity verification.
+
+### 2. Verifying Identity
+- After connecting your wallet, click the "Verify Identity" button.
+- The app will make a request to the zkPass API to verify your identity. The status of the verification will be shown on the screen.
+
+### 3. Back Functionality
+- Once the identity verification is complete, you can click the "Back" button to navigate back to the previous page.
+
+### 4. Disconnect Wallet
+- You can disconnect your wallet at any time by clicking the "Disconnect Wallet" button. This will clear the wallet address and reset the app's state.
+
+## Video Demonstration
+Watch the video demonstration here : https://youtu.be/C7auQTbFN5Q or find it in the images folder here: https://github.com/Codrjay/zkpass-bounty/blob/f76320c6c76e1f3ff2855600f78e8af2d8f05453/images/Video%20demo.mp4
+
+## Link to website
+Head to [https://codrjay.github.io/zkpass-bounty](https://codrjay.github.io/zkpass-bounty) to see the app in action.
 
 ## Conclusion
+This project demonstrates the seamless integration of MetaMask for wallet connections and zkPass for identity verification in a decentralized application. The clean UI and smooth functionality ensure a pleasant user experience, whether you're connecting your wallet, verifying your identity, or disconnecting from the app. This is an excellent foundation for building privacy-focused, blockchain-integrated applications.
 
-This application serves as a simple demonstration of integrating Ethereum wallet connection and identity verification via zkPass, enabling privacy-preserving authentication in decentralized applications (dApps).
+## Future Improvements
+- **Enhanced Error Handling**: Implement better error messages and recovery options in case of failed wallet connections or API issues.
+- **Multi-wallet Support**: Support multiple wallet providers (e.g., Trust Wallet, Coinbase Wallet).
+- **UI/UX Enhancements**: Improve the overall design to make it even more user-friendly.
+- **Testing and Optimization**: Add unit and integration tests to ensure the robustness of the application.
+
+

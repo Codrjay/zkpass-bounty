@@ -75,19 +75,19 @@ This application combines the power of blockchain and privacy-focused identity v
 ## Screenshots
 ### Wallet Connection Screen
 
-![Wallet Connection](https://github.com/Codrjay/zkpass-bounty/blob/c4ba3490ddda6e94d8d15b146a91bc7cdfe3aaf1/images/homepage.png)
+![Wallet Connection](images/home-page.jpg)
 
 ### Permissions screen
-![Permission](https://github.com/Codrjay/zkpass-bounty/blob/c4ba3490ddda6e94d8d15b146a91bc7cdfe3aaf1/images/Permission.png)
+![Permission](images/Permission.jpg)
 
 ### Successful connection
-![connection Status](https://github.com/Codrjay/zkpass-bounty/blob/c4ba3490ddda6e94d8d15b146a91bc7cdfe3aaf1/images/Successfulconnection.png)
+![connection Status](images/Successful-connection.jpg)
 
 ### Verifying identity
-![verifying](https://github.com/Codrjay/zkpass-bounty/blob/c4ba3490ddda6e94d8d15b146a91bc7cdfe3aaf1/images/Verifyingdentity.png)
+![verifying](images/Verifying-identity.jpg)
 
 ### Successful verification
-![successful verification](https://github.com/Codrjay/zkpass-bounty/blob/c4ba3490ddda6e94d8d15b146a91bc7cdfe3aaf1/images/Identityverifiedsuccessfully.png)
+![successful verification](images/Identity-verified-successfully.jpg)
 
 ## Usage
 ### 1. Connecting Wallet
@@ -105,7 +105,7 @@ This application combines the power of blockchain and privacy-focused identity v
 - You can disconnect your wallet at any time by clicking the "Disconnect Wallet" button. This will clear the wallet address and reset the app's state.
 
 ## Video Demonstration
-Watch the video demonstration here : https://youtu.be/C7auQTbFN5Q or find it in the images folder here: https://github.com/Codrjay/zkpass-bounty/blob/f76320c6c76e1f3ff2855600f78e8af2d8f05453/images/Video%20demo.mp4
+Watch the video demonstration here : https://youtu.be/C7auQTbFN5Q or find here in my google drive: (https://drive.google.com/file/d/1M_Ep1X-kuiZ-LVycJ1LlCnYdXio8d9X7/view?usp=sharing)
 
 ## Link to website
 Head to [https://codrjay.github.io/zkpass-bounty](https://codrjay.github.io/zkpass-bounty) to see the app in action.

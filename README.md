@@ -61,57 +61,8 @@ This application combines the power of blockchain and privacy-focused identity v
    npm start
    ```
 
-4. Open your browser and navigate to [the website]([(https://codrjay.github.io/zkpass-bounty)) to see the app in action.
-
-## Prerequisites
-- MetaMask or another Ethereum wallet extension installed in your browser to connect the wallet.
-- zkPass API: This application interacts with zkPass for identity verification. Ensure you have the appropriate credentials for using their service.
-
-## Technologies Used
-- **React**: A JavaScript library for building user interfaces.
-- **Ethereum (MetaMask)**: A popular Ethereum wallet that enables users to manage their accounts and interact with decentralized applications.
-- **zkPass**: A zero-knowledge proof-based identity verification platform.
-- **Axios**: A promise-based HTTP client for making requests to APIs.
-- **React Router**: For handling routing and navigation in the app.
-
-## Screenshots
-### Wallet Connection Screen
-![Wallet Connection](homepage.png)
-
-### Permissions screen
-![Permission](Permission.png)
-
-### Successful connection
-![connection Status](Successfulconnection.png)
-
-### Verifying identity
-![verifying](Verifyingdentity.png)
-
-### Successful verification
-![successful verification](Identityverifiedsuccessfully.png)
-
-## Usage
-### 1. Connecting Wallet
-- When you first visit the app, you'll be prompted to click the "Connect Wallet" button. This will trigger MetaMask to ask for your permission to connect your wallet.
-- After you approve the connection, your wallet address will be displayed, and you'll be able to proceed with identity verification.
-
-### 2. Verifying Identity
-- After connecting your wallet, click the "Verify Identity" button.
-- The app will make a request to the zkPass API to verify your identity. The status of the verification will be shown on the screen.
-
-### 3. Back Functionality
-- Once the identity verification is complete, you can click the "Back" button to navigate back to the previous page.
-
-### 4. Disconnect Wallet
-- You can disconnect your wallet at any time by clicking the "Disconnect Wallet" button. This will clear the wallet address and reset the app's state.
+4. Visit [http://localhost:3000](http://localhost:3000) to view the application.
 
 ## Conclusion
-This project demonstrates the seamless integration of MetaMask for wallet connections and zkPass for identity verification in a decentralized application. The clean UI and smooth functionality ensure a pleasant user experience, whether you're connecting your wallet, verifying your identity, or disconnecting from the app. This is an excellent foundation for building privacy-focused, blockchain-integrated applications.
 
-## Future Improvements
-- **Enhanced Error Handling**: Implement better error messages and recovery options in case of failed wallet connections or API issues.
-- **Multi-wallet Support**: Support multiple wallet providers (e.g., Trust Wallet, Coinbase Wallet).
-- **UI/UX Enhancements**: Improve the overall design to make it even more user-friendly.
-- **Testing and Optimization**: Add unit and integration tests to ensure the robustness of the application.
-
-
+This application serves as a simple demonstration of integrating Ethereum wallet connection and identity verification via zkPass, enabling privacy-preserving authentication in decentralized applications (dApps).

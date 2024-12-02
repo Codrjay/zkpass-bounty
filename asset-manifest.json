@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/zkpass-bounty/static/css/main.ea6681dc.chunk.css",
+    "main.js": "/zkpass-bounty/static/js/main.46b7047c.chunk.js",
+    "main.js.map": "/zkpass-bounty/static/js/main.46b7047c.chunk.js.map",
+    "runtime~main.js": "/zkpass-bounty/static/js/runtime~main.cf1895f6.js",
+    "runtime~main.js.map": "/zkpass-bounty/static/js/runtime~main.cf1895f6.js.map",
+    "static/js/2.9afd17d8.chunk.js": "/zkpass-bounty/static/js/2.9afd17d8.chunk.js",
+    "static/js/2.9afd17d8.chunk.js.map": "/zkpass-bounty/static/js/2.9afd17d8.chunk.js.map",
+    "index.html": "/zkpass-bounty/index.html",
+    "precache-manifest.4556fffd338fedfccebcfedc67179c4d.js": "/zkpass-bounty/precache-manifest.4556fffd338fedfccebcfedc67179c4d.js",
+    "service-worker.js": "/zkpass-bounty/service-worker.js",
+    "static/css/main.ea6681dc.chunk.css.map": "/zkpass-bounty/static/css/main.ea6681dc.chunk.css.map"
+  }
+}
